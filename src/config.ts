@@ -56,16 +56,16 @@ export const profileConfig: ProfileConfig = {
   bio: '勇气是人类的赞歌',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
+      name: 'Bilbili',
+      icon: 'ant-design:bilibili-filled',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'https://space.bilibili.com/1680365826?spm_id_from=333.1387.0.0',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Zhi Hu',
+      icon: 'ant-design:zhihu-outlined',
+      url: 'https://www.zhihu.com/people/mo-chen-51-65',
     },
     {
       name: 'GitHub',
