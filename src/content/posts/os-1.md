@@ -163,7 +163,7 @@ OS的微内核(microkernel)结构，由于它能有效地支持多处理机运�
 效率降低最主要的原因是,在完成一次客户对OS提出的服务请求时,需要利用消息实现多次交互,以及进行用户/内核模式和上下文的多次切换。
 实际情况往往还会引起更多的上下文切换。
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250318004536558.png"height="80%" width="80%"/>
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250318004536558.png" height="80%" width="80%"/>
 
 
 ## 4.5 外核
