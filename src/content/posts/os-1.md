@@ -21,6 +21,7 @@ OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用�
 
 ![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png)
 
+1111
 
 # 操作系统的发展历程
 
