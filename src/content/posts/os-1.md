@@ -19,7 +19,7 @@ lang: ''
 
 OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用户与计算机硬件系统之间,用户通过OS来使用计算机硬件系统;或者说,用户在OS的帮助下能够方便、快捷、可靠地操纵计算机硬件和运行自己的程序。
 
-![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png)
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png" height="60%" width="60%" />
 
 # 操作系统的发展历程
 
@@ -29,7 +29,7 @@ OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用�
 
 脱机操作。优点，减少CPU空闲时间。提高I/O。
 
-![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2021.45.54.png)
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2021.45.54.png" height="60%" width="60%" />
 
 > 单道批处理系统
 
@@ -38,17 +38,13 @@ OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用�
 
 内存中始终只保持一道作业,故称之为单道批处理系统。
 
-![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2021.51.56.png)
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2021.51.56.png" height="60%" width="60%" />
 
 从图中可以看出,在$t_2 \to t_3$ 、$t_6 \to t_7$ 时间间隔内CPU空闲。
 
 > 多道批处理系统
 
 在该系统中,用户所提交的作业会被先存放在外存上,并排成一个队列,称为“后备队列”。然后由作业调度程序按一定的算法从后备队列中选择若干个作业调入内存,使它们共享CPU和系统中的各种资源。
-
-![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2022.03.41.png)
-
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2022.03.41.png"/>
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2022.03.41.png" height="60%" width="60%" />
 
