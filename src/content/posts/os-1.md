@@ -19,8 +19,7 @@ lang: ''
 
 OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用户与计算机硬件系统之间,用户通过OS来使用计算机硬件系统;或者说,用户在OS的帮助下能够方便、快捷、可靠地操纵计算机硬件和运行自己的程序。
 
-![1](https://github.com/MRchenyuheng/Blog_Pic_Bed/raw/main/OS/os-1.png)
-
+![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png)
 
 
 # 操作系统的发展历程
