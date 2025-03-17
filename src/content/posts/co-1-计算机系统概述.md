@@ -4,7 +4,7 @@ published: 2025-03-18
 updated: 2025-03-18
 description: ''
 image: ''
-tags: [408]
+tags: []
 category: '计算机组成原理'
 draft: false 
 lang: ''
