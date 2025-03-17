@@ -21,8 +21,20 @@ OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用�
 
 ![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png)
 
-1111
-
 # 操作系统的发展历程
 
+> 未配置OS的计算机系统
+
+人工操作。缺点，用户独占全机，CPU等待人工操作。
+
+脱机操作。优点，减少CPU空闲时间。提高I/O。
+
+![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main//OS%E6%88%AA%E5%B1%8F2025-03-17%2021.45.54.png)
+
+> 单道批处理系统
+
+脱机I/O后处理。
+处理过程:首先由监督程序将磁带上的第一个作业装入内存,并把运行控制权交给该作业;当该作业处理完成时,又把运行控制权交还给监督程序
+
+内存中始终只保持一道作业,故称之为单道批处理系统。
 # 程序运行环境
