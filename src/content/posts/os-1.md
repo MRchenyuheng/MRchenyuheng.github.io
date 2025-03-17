@@ -29,7 +29,7 @@ OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用�
 
 脱机操作。优点，减少CPU空闲时间。提高I/O。
 
-![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main//OS%E6%88%AA%E5%B1%8F2025-03-17%2021.45.54.png)
+![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2021.45.54.png)
 
 > 单道批处理系统
 
@@ -38,7 +38,7 @@ OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用�
 
 内存中始终只保持一道作业,故称之为单道批处理系统。
 
-![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main//OS%E6%88%AA%E5%B1%8F2025-03-17%2021.51.56.png)
+![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2021.51.56.png)
 
 从图中可以看出,在$t2~t3$ 、$t6~t7$ 时间间隔内CPU空闲。
 
