@@ -50,6 +50,7 @@ OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用�
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2022.03.41.png"/>
 
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/%E6%88%AA%E5%B1%8F2025-03-17%2022.03.41.png" height="60%" width="60%" />
 
 资源利用率高。系统吞吐量大。平均周转时间长。无交互能力。
 
