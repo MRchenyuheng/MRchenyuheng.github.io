@@ -136,7 +136,7 @@ OS作为用户与计算机硬件系统之间的接口,其含义是:OS处于用�
 
 在基于外核结构的OS中, 一个非常小的内核负责保护系统资源,而硬件资源的管理职责则委托给应用程序。这样,OS就可以做到在保证资源安全的前提下,减少对应用程序的限制,充分满足应用程序对硬件资源的不同需求。
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250317235406632.png" height="80%" width="80%"/>
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250317235406632.png" height="60%" width="60%"/>
 
 库OS的实现思想是:基于应用程序的需求来定制OS内核,将原本属于OS内核的功能以库的形式提供给用户。
 
