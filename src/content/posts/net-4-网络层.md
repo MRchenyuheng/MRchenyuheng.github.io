@@ -26,11 +26,14 @@ lang: ''
 
 ## 1.1 异构网络互连
 
-|   1   |  1    |   1   |
-| ---- | ---- | ---- |
-|   2   |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png" height="60%" width="60%" />    |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png" height="60%" width="60%" />    |
+|  虚电路   |   数据报   |
+| ---- | ---- |
+|  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220642031.png"/>    | <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220710355.png"/>      |
+
+对比如下
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319215944539.png"/>
+
 
 
 ## 1.2 路由与转发
