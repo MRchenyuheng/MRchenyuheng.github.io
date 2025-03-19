@@ -30,10 +30,19 @@ lang: ''
 | ---- | ---- |
 |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220642031.png"/>    | <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220710355.png"/>      |
 
-对比如下
+> 对比如下
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319215944539.png"/>
 
+> 网络层两层面
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220905229.png"/>
+
+|  数据层面   |   控制层面   |
+| ---- | ---- |
+| 每个路由器独立工作                            |   路由器间需要相互协作   |
+| 根据收到IP分组目的地址,按转发表转发至下一跳路由器  |  交换路由信息           |
+| 采用硬件转发,速度快(纳秒数量级,10−9秒)          |    运行路由选择协议(软件),生成路由表(耗时⻓,秒级);    |
 
 
 ## 1.2 路由与转发
