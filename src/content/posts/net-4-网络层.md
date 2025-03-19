@@ -18,12 +18,17 @@ lang: ''
 
 数据链路层解决了同一局域网(直连网络)计算机间帧的传输问题,没有解决以下问题
 
-1 异构网络互联,即跨局域网连接和资源共享; 
-2 互联网络中主机标识问题;
-3 互联网中主机间路由选择问题(最佳路径);
-4 互联网中数据转发的问题(分组转发)。
++ 1 异构网络互联,即跨局域网连接和资源共享; 
++ 2 互联网络中主机标识问题;
++ 3 互联网中主机间路由选择问题(最佳路径);
++ 4 互联网中数据转发的问题(分组转发)。
+
 
 ## 1.1 异构网络互连
+
+|      |      |      |
+| ---- | ---- | ---- |
+|      |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png" height="60%" width="60%" />    |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png" height="60%" width="60%" />    |
 
 ## 1.2 路由与转发
 
