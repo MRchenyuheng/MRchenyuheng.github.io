@@ -195,6 +195,8 @@ OS的微内核(microkernel)结构，由于它能有效地支持多处理机运�
 
 # 6 虚拟机
 
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319114939428.png"/>
+
 # 参考资料
 
 > 计算机操作系统慕课版 汤小丹 王红玲 姜华 汤子瀛  编著
