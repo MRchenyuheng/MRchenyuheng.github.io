@@ -30,6 +30,8 @@ lang: ''
 | ---- | ---- | ---- |
 |      |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png" height="60%" width="60%" />    |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png" height="60%" width="60%" />    |
 
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/os-1.png" height="60%" width="60%" />
+
 ## 1.2 路由与转发
 
 ## 1.3 SDN基本概念
