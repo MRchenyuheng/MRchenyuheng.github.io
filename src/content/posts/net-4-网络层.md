@@ -27,7 +27,7 @@ lang: ''
 | ---- | ---- |
 |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220642031.png"/>    | <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220710355.png"/>      |
 
-> 
+
 
 <details style="color: darkred;">
   <summary style="cursor: pointer; color:rgb(238, 7, 173);"> 对比表格 </summary>
@@ -259,7 +259,38 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
 
 每一台主机都设有一个ARP高速缓存(ARP cache),里面存有本局域网上的各主机和路由器的IP地址到MAC地址的映射表,这些都是该主机目前知道的一些MAC地址。
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320135202110.png" height="70%" width="70%"/>
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(27, 6, 247);"> ARP报文格式 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320135202110.png" height="70%" width="70%"/>
+  </div>
+</details>
+
+<div style="
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 10px 0;
+    background: #f6f8fa;
+    transition: all 0.2s;
+">
+  <a href="https://www.baidu.com" target="_blank" style="
+      text-decoration: none;
+      color: inherit;
+      display: block;
+  ">
+    <h3 style="
+        margin: 0 0 8px 0;
+        color:rgb(247, 60, 9);
+        font-size: 1.1em;
+    ">📘 ARP协议详解</h3>
+    <p style="
+        margin: 0;
+        color: #586069;
+        font-size: 0.9em;
+    ">本链接链接至更详细的ARP讲解</p>
+  </a>
+</div>
 
 
 
