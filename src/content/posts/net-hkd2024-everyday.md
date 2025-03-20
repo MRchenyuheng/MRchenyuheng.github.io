@@ -30,7 +30,7 @@ lang: ''
         margin: 0 0 8px 0;
         color:rgb(245, 151, 9);
         font-size: 1.1em;
-    ">📘 湖科大计网24每日一题</h3>
+    ">📙 湖科大计网24每日一题</h3>
     <p style="
         margin: 0;
         color: #586069;
@@ -39,11 +39,25 @@ lang: ''
   </a>
 </div>
 
+# 1
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320173812873.png"/>
+
 <details style="color: darkred;">
-  <summary style="cursor: pointer; color:rgb(27, 6, 247);"> 
-  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320173812873.png"/>
-  </summary>
+  <summary style="cursor: pointer; color:rgb(27, 6, 247);"> 解析 </summary>
   <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
-  1
+    选C，原因是OSPF认为总代价最小的路由为好路由
+  </div>
+</details>
+
+# 2
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320175958719.png"/>
+
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(27, 6, 247);"> 解析 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+  协议字段 = 17，表明是UDP用户数据报
+  首部
   </div>
 </details>
