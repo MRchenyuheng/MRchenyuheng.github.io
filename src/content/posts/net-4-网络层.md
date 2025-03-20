@@ -196,8 +196,27 @@ CIDR把网络前缀都相同的所有连续的IP地址组成一个“CIDR地址�
 从层次的角度看,MAC地址是数据链路层使用的地址,而IP地址是网络层和以上各层使用的地址,是一种逻辑地址(称IP地址为逻辑地址是因为IP地址是用软件实现的)。
 
 
+<details>
+<summary>`为什么不用硬件地址直接通信?`</summary>
+1.硬件地址用于直接相连的网络(同一个二层广播网络),用于找到局域网中的主机; 
+
+2.互联网中很多局域网是异构的,硬件地址不同,需要地址转换; 
+
+3.IP地址是软件地址或逻辑地址,用于定位主机所处的网络(网络号不同的网络),连接到互联网上的主机都有一个唯一的IP地址。
+
+4. 硬件地址与物理位置无关
+
+5.IP地址(非保留IP地址,用于Internet中的地址),与“物理位置”相关
+</details>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320141540104.png"/>
 
 
+<details>
+<summary>IP地址与物理地址详解</summary>
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320141801364.png"/>
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320141939308.png"/>
+</details>
 
 ### 3.4.1 ARP协议
 
@@ -215,10 +234,6 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320135202110.png" height="70%" width="70%"/>
 
-<details>
-<summary>测试折叠功能</summary>
-测试内容
-</details>
 
 
 ### 3.4.2 DHCP协议
@@ -234,7 +249,7 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
     background: #f6f8fa;
     transition: all 0.2s;
 ">
-  <a href="https://example.com" target="_blank" style="
+  <a href="https://www.baidu.com" target="_blank" style="
       text-decoration: none;
       color: inherit;
       display: block;
