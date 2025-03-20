@@ -51,7 +51,7 @@ lang: ''
 
 我们可以想象IP数据报就在网络层中传送,传输路径可省略路由器之间的网络以及连接在这些网络上的许多无关主机。
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319223547167.png"/>
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319223547167.png" height="60%" width="60%" />
 
 
 
@@ -90,6 +90,25 @@ lang: ''
 
 ## 2.1 静态路由与动态路由
 
+## 2.2 距离-向量路由算法
+
+## 2.3 链路状态路由算法
+
+## 2.4 层次路由
+
+# 3 IPv4
+
+由于网际协议IP是用来使互连起来的许多计算机网络能够进行通信的,因此TCP/IP体系中的网络层常常被称为网际层(internet),或IP层。
+
+IP地址就是给连接到互联网上的每一台主机(或路由器)的每一个接口,分配一个在全世界范围内是唯一的32位的标识符。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250320103147081.png" height="70%" width="70%"/>
+
+IP地址中的前n位是主机所连接的网络号,而IP地址中后面的(32 -n)位是主机号。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320110416022.png"/>
+
+## 3.1 IPv4分组
 
 # 参考资料
 
