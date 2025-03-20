@@ -225,6 +225,34 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
 
 ### 3.4.3 ICMP协议
 
+<!-- 基础版（适配Markdown渲染环境） -->
+<div style="
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 10px 0;
+    background: #f6f8fa;
+    transition: all 0.2s;
+">
+  <a href="https://example.com" target="_blank" style="
+      text-decoration: none;
+      color: inherit;
+      display: block;
+  ">
+    <h3 style="
+        margin: 0 0 8px 0;
+        color: #0969da;
+        font-size: 1.1em;
+    ">📘 示例标题</h3>
+    <p style="
+        margin: 0;
+        color: #586069;
+        font-size: 0.9em;
+    ">这里是卡片的描述内容，支持多行文字...</p>
+  </a>
+</div>
+
+
 # 参考资料
 
 > 计算机网络/谢希仁编著.—8版.一北京:电子工业出版社,2021.6 ISBN 978-7-121-41174-8
