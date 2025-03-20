@@ -266,6 +266,7 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
   </div>
 </details>
 
+<!-- 基础版（适配Markdown渲染环境） -->
 <div style="
     border: 1px solid #e1e4e8;
     border-radius: 6px;
@@ -274,21 +275,21 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
     background: #f6f8fa;
     transition: all 0.2s;
 ">
-  <a href="https://www.baidu.com" target="_blank" style="
+  <a href="https://mrchenyuheng.github.io/posts/net-41-arp/" target="_blank" style="
       text-decoration: none;
       color: inherit;
       display: block;
   ">
     <h3 style="
         margin: 0 0 8px 0;
-        color:rgb(247, 60, 9);
+        color:rgb(132, 9, 247);
         font-size: 1.1em;
     ">📘 ARP协议详解</h3>
     <p style="
         margin: 0;
         color: #586069;
         font-size: 0.9em;
-    ">本链接链接至更详细的ARP讲解</p>
+    ">本链接链接至更详细的ARP协议讲解</p>
   </a>
 </div>
 
