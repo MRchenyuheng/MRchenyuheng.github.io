@@ -10,9 +10,10 @@ draft: false
 lang: ''
 ---
 
-> 大纲
+> 408考研大纲
 > 1 网络层的功能 1.1 异构网络互连 1.2 路由与转发 1.3 SDN基本概念 1.4 拥塞控制
 > 2 路由算法 2.1 静态路由与动态路由
+> 3 IPv4
 
 # 1 网络层的功能
 
@@ -134,10 +135,10 @@ IP地址中的前n位是主机所连接的网络号,而IP地址中后面的(32 -
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320112903926.png" height="70%" width="70%"/>
 
-
-
-
 ## 3.1 IPv4分组
+
+IP数据报的格式说明协议IP都具有什么功能。在协议IP的标准中, 描述首部格式的宽度是32位(即4字节)。
+
 
 ## 3.2 IPv4地址与NAT
 
@@ -266,6 +267,10 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
   </div>
 </details>
 
+> 使用arp协议的四种典型的情况
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320161722926.png" height="70%" width="70%"/>
+
 <!-- 基础版（适配Markdown渲染环境） -->
 <div style="
     border: 1px solid #e1e4e8;
@@ -326,13 +331,12 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
   </a>
 </div>
 
-<details style="color: darkred;">
-  <summary style="cursor: pointer; color:rgb(246, 28, 28);">icmp</summary>
-  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+# 4 IPv6
 
-1
-  </div>
-</details>
+## 4.1 IPv6的主要特点
+
+## 4.2 IPv6地址
+
 
 
 # 参考资料
