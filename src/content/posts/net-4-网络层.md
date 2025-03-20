@@ -106,7 +106,36 @@ IP地址就是给连接到互联网上的每一台主机(或路由器)的每一�
 
 IP地址中的前n位是主机所连接的网络号,而IP地址中后面的(32 -n)位是主机号。
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320110416022.png"/>
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320110416022.png" height="60%" width="60%" />
+
+> 分类IP
+
+分类的方法非常简单。
+
+这里A类(n=8)、B类(n=16)和C类(n=24)地址都是单播地址(一对一通信),是最常用的。D类是多播地址。
+
+把IP地址划分为A类、B类、C类三个类别,当初是这样考虑的:各种网络的差异很大,有的网络拥有很多主机,而有的网络上的主机则很少。把IP地址划分为A类、B类和C类是为了更好地满足不同用户的需求。
+
+这种分类的IP地址由于网络号的位数是固定的,因此管理简单、使用方便、转发分组迅速,完全可以满足当时互联网在美国的科研需求。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320112722702.png" height="70%" width="70%"/>
+
+> 一般不使用的特殊IP
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320112903926.png" height="70%" width="70%"/>
+
+> 划分子网
+
+1985 年起, IP 地址中增加了“子网号字段”,使两级的 IP 地址变成为三级的 IP 地址。这种做法叫作划分子网 (subnetting) : • 划分子网已成为互联网的正式标准协议; 
+ 
+当没有划分子网时,IP 地址是两级结构; 
+ 
+划分子网后 IP 地址就变成了三级结构。
+
+划分子网纯属一个单位内部的事情。单位对外仍然表现为没有划分子网的网络。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320114140334.png" height="50%" width="50%"/>
+
 
 ## 3.1 IPv4分组
 
