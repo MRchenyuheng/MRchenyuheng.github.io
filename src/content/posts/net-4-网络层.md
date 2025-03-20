@@ -27,9 +27,15 @@ lang: ''
 | ---- | ---- |
 |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220642031.png"/>    | <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220710355.png"/>      |
 
-> 对比如下
+> 
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319215944539.png"/>
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(238, 7, 173);"> 对比表格 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319215944539.png"/>
+  </div>
+</details>
+
 
 ## 1.1 异构网络互连
 
@@ -60,9 +66,13 @@ lang: ''
 
 ## 1.3 SDN基本概念
 
-> 网络层两层面
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(238, 7, 173);"> 网络层两个层面 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220905229.png" height="70%" width="70%" />
+  </div>
+</details>
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250319220905229.png"/>
 
 |  数据层面   |   控制层面   |
 | ---- | ---- |
@@ -217,11 +227,23 @@ CIDR把网络前缀都相同的所有连续的IP地址组成一个“CIDR地址�
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320141540104.png"/>
 
 
-<details>
-<summary>IP地址与物理地址详解</summary>
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320141801364.png"/>
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320141939308.png"/>
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(246, 28, 28);">IP地址与物理地址详解</summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320141801364.png" height="80%" width="80%" />
+  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320141939308.png" height="80%" width="80%" />
+  
+  1. 在IP层抽象的互联网上只能看到IP数据报; 
+  2. IP数据报首部有源站IP地址,但路由器只根据目的站的IP地址进行转发; 
+  3. 在局域网的链路层,只能看⻅MAC帧;
+  4. 互连在一起的网络的MAC地址体系各不相同,但IP层抽象的互联网屏蔽了下层这些很复杂的细节;
+  5. 网络层使用统一的、抽象的IP地址研究主机和主机或路由器之间的通信。
+
+  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320144451434.png" height="70%" width="70%" />
+
+  </div>
 </details>
+
 
 ### 3.4.1 ARP协议
 
@@ -261,16 +283,24 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
   ">
     <h3 style="
         margin: 0 0 8px 0;
-        color: #0969da;
+        color:rgb(247, 60, 9);
         font-size: 1.1em;
-    ">📘 示例标题</h3>
+    ">📘 ICMP报文详解</h3>
     <p style="
         margin: 0;
         color: #586069;
         font-size: 0.9em;
-    ">这里是卡片的描述内容，支持多行文字...</p>
+    ">本链接链接至更详细的ICMP报文讲解</p>
   </a>
 </div>
+
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(246, 28, 28);">icmp</summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+
+1
+  </div>
+</details>
 
 
 # 参考资料
