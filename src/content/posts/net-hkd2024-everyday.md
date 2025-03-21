@@ -1,7 +1,7 @@
 ---
 title: 湖科大计网24每日一题
-published: 2025-03-19
-updated: 2025-03-19
+published: 2025-03-20
+updated: 2025-03-21
 description: ''
 image: ''
 tags: [408统考]
@@ -77,7 +77,7 @@ lang: ''
   
   选D
   
-  链路带宽 = $\frac{链路的时延带宽积}{链路的传播时延} = \fcac{100b}{10^{-6}s} = 100Mb/s$ 
+  链路带宽 = $\frac{链路的时延带宽积}{链路的传播时延} = \fcac{100b}{ 10^{-6}s } = 100Mb/s$ 
 
   短板效应故发送速度为 100Mb/s
   <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320214547807.png"/>
@@ -94,6 +94,18 @@ lang: ''
    选B
 
    <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320215522192.png"/>
+
+  </div>
+</details>
+
+# 5
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320221142154.png"/>
+
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(27, 6, 247);"> 解析 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+   选B
 
   </div>
 </details>

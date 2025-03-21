@@ -95,6 +95,24 @@ lang: ''
 
 最近在网络界提出的软件定义网络SDN(Software Defined Network),正在对这两个层面的结构进行了重大的改变。
 
+基于SDN的专用广域网确实可以大大提高网络带宽利用率,网络运行更加稳定,管理更加高效简化,运行费用也明显降低了。
+
+可以把协议OpenFlow看成是在SDN 体系结构中控制层面和数据层面之间的通信接口,它使得控制层面的控制器可以对数据层面中的物理设备或虚拟设备,进行直接访问和操纵。这种控制在逻辑上是集中式的,是基于流的控制。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250321094358664.png"  height="50%" width="50%"/>
+
+如下是计算机模型与SDN的对比
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250321095850942.png" height="60%" width="60%"/>
+
+如下是ONF定义的SDN的基本架构
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250321100052319.png" height="80%" width="80%"/>
+
+SDN的转发抽象
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250321101226279.png"/>
+
 ## 1.4 拥塞控制
 
 # 2 路由算法
