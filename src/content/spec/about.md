@@ -1,6 +1,7 @@
-# About
 
-这里是Lemon-Tree的博客。
+这里是`Lemon-Tree`的博客。
+
+采用`Astro & Fuwari`框架。
 
 ::github{repo="MRchenyuheng/MRchenyuheng.github.io"}
 
@@ -17,3 +18,9 @@ sudo xattr -d com.apple.quarantine "/Applications/PicGo.app"
 解决方法来自[这里](https://blog.csdn.net/m0_49562857/article/details/128998691)
 
 Picgo配置参见[官方文档](https://picgo.github.io/PicGo-Doc/zh/guide/config.html#github%E5%9B%BE%E5%BA%8A)
+
+> 2025 03 21
+
+CNAME购买域名，cloudflare加速
+
+萌备案申请
