@@ -24,3 +24,5 @@ Picgo配置参见[官方文档](https://picgo.github.io/PicGo-Doc/zh/guide/confi
 CNAME购买域名，cloudflare加速
 
 萌备案申请
+
+装了`reveal.js`，这下可以支持`PPT`了。

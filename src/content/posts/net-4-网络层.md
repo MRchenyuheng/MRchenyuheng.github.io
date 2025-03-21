@@ -113,6 +113,34 @@ SDN的转发抽象
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250321101226279.png"/>
 
+
+<!-- 基础版（适配Markdown渲染环境） -->
+<div style="
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 10px 0;
+    background: #f6f8fa;
+    transition: all 0.2s;
+">
+  <a href="http://lemontrees.top/PPT/net-sdn" target="_blank" style="
+      text-decoration: none;
+      color: inherit;
+      display: block;
+  ">
+    <h3 style="
+        margin: 0 0 8px 0;
+        color:rgb(211, 9, 247);
+        font-size: 1.1em;
+    ">📘 SDN详解</h3>
+    <p style="
+        margin: 0;
+        color: #586069;
+        font-size: 0.9em;
+    ">本链接链接至更详细的SDN讲解</p>
+  </a>
+</div>
+
 ## 1.4 拥塞控制
 
 # 2 路由算法
@@ -339,7 +367,7 @@ IP地址和下面链路层的MAC地址之间由于格式不同而不存在简单
   ">
     <h3 style="
         margin: 0 0 8px 0;
-        color:rgb(247, 60, 9);
+        color:rgb(211, 9, 247);
         font-size: 1.1em;
     ">📘 ICMP报文详解</h3>
     <p style="
