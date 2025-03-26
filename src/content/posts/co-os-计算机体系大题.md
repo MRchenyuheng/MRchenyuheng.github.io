@@ -14,9 +14,8 @@ lang: ''
 
 > 2023年408统考
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250326140507232.png"/>
-
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250326140614151.png"/>
-
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250326140626632.png"/>
-
+| 题目 |
+|--------|
+| <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250326140507232.png"/> |
+| <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250326140614151.png"/> |
+| <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250326140626632.png"/> |
