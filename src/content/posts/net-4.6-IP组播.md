@@ -37,3 +37,12 @@ lang: ''
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/OS/20250326212348710.png"/>
 
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(246, 28, 28);">
+  【举例】收到IP多播数据报的主机还要在网际层利用软件进行过滤,把不是主机要接收的IP多播数据报丢弃。
+  </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+    <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250327121220376.png"/>
+  </div>
+</details>
+
