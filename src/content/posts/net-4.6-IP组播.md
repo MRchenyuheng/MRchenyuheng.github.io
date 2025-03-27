@@ -46,3 +46,10 @@ lang: ''
   </div>
 </details>
 
+# IP多播需要的两种协议
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250327122228815.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250327122254010.png"/>
+
+# IGMP协议
