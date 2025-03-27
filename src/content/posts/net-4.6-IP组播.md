@@ -24,9 +24,14 @@ lang: ''
 多播地址只能用于目的地址,而不能用于源地址。此外,对多播数据报不产生ICMP差错报文。
 
 > 多播类型分类
+
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250326213439028.png"/>
 
-在局域网上进行硬件多播
+# 1 在局域网上进行硬件多播
+
+由于MAC地址(也称为硬件地址)有多播MAC地址这种类型,因此只要把IPv4多播地址映射成多播MAC地址,即可将IP多播数据报封装在局域网的MAC帧中,而MAC帧首部中的目的MAC地址字段的值,就设置为由IPv4多播地址映射成的多播MAC地址。这样,可以很方便地利用硬件多播来实现局域网内的IP多播。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250327120433338.png"/>
 
 以太网MAC地址字段中的第1字节的最低位为1时即为多播地址,这种多播地址数占IANA分配到的地址数的一半。但IANA只拿出$2^{23}$个地址,即`01-00-5E-0000-00`到`01-00-5E-7F-FF-FF`的地址作为以太网多播地址。
 
