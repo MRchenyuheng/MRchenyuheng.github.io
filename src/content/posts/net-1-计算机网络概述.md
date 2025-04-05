@@ -147,3 +147,5 @@ OSI把层与层之间交换的数据的单位称为服务数据单元SDU(Service
 
 
 ## 2.3 ISO/OSI参考模型和TCP/IP参考模型
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405175550393.png" alt="出自TCPIP 详解"/>
