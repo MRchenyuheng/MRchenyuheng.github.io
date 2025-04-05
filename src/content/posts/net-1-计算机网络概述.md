@@ -12,7 +12,7 @@ lang: ''
 
 # 1 计算机网络基本概念
 
-## 1.1 计算机网络的定义
+### 1.1.1 计算机网络的定义
 
 计算机网络主要是由一些通用的、可编程的硬件互连而成的,而这些硬件并非专门用来实现某一特定目的(例如,传送数据或视频信号)。这些可编程的硬件能够用来传送多种不同类型的数据,并能支持广泛的和日益增长的应用。
 
@@ -20,7 +20,7 @@ lang: ''
 请注意,上述的“可编程的硬件”表明这种硬件一定包含有中央处理器CPU。
 
 
-## 1.2 计算机网络的组成
+### 1.1.2 计算机网络的组成
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250326111023294.png" height="60%" width="60%" />
 
@@ -36,15 +36,24 @@ lang: ''
 报文交换——整个报文先传送到相邻节点,全部存储下来后查找转发表,转发到下一个节点。
 分组交换——单个分组(这只是整个报文的一部分)传送到相邻节点,存储下来后查找转发表,转发到下一个节点。
 
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405134308536.png"/>
 
 
-## 1.3 计算机网络的功能
+## 1.1.3 计算机网络的功能
 
-# 2 计算机网络的分类
+## 1.2 计算机网络的分类
 
 > 覆盖范围
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405132130164.png"/>
+
+个人区域网就是在个人工作的地方把属于个人使用的电子设备(如便携式电脑等)用无线技术连接起来的网络,因此也常称为无线个人区域网WPAN(Wireless PAN),
+
+局域网一般用微型计算机或工作站通过高速通信线路相连(速率通常在10 Mbit/s以上),但地理上则局限在较小的范围(如lkm左右)。
+
+城域网的作用范围一般是一个城市, 可跨越几个街区甚至整个城市,其作用距离约为5~50 km。城域网可以为一个或几个单位所拥有,也可以是一种公用设施,用来将多个局域网进行互连。
+
+广域网是互联网的核心部分,其任务是长距离(例如,跨越不同的国家)运送主机所发送的数据。
 
 > 拓扑结构
 
@@ -53,4 +62,14 @@ lang: ''
 |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405132415518.png"/>    |  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405132528948.png"/>     |
 | <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405132509261.png"/>     |    <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405132444269.png"/>   |
 
-个人区域网就是在个人工作的地方把属于个人使用的电子设备(如便携式电脑等)用无线技术连接起来的网络,因此也常称为无线个人区域网WPAN(Wireless PAN),
+> 使用者
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405134431321.png"/>
+
+## 1.3 计算机网络的主要性能指标
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405140533735.png"/>
+
+> 速率
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405140734711.png"/>
