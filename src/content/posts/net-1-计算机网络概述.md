@@ -43,6 +43,8 @@ lang: ''
 
 ## 1.2 计算机网络的分类
 
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405155248610.png"/>
+
 > 覆盖范围
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405132130164.png"/>
@@ -54,6 +56,8 @@ lang: ''
 城域网的作用范围一般是一个城市, 可跨越几个街区甚至整个城市,其作用距离约为5~50 km。城域网可以为一个或几个单位所拥有,也可以是一种公用设施,用来将多个局域网进行互连。
 
 广域网是互联网的核心部分,其任务是长距离(例如,跨越不同的国家)运送主机所发送的数据。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405155317266.png"/>
 
 > 拓扑结构
 
@@ -73,3 +77,51 @@ lang: ''
 > 速率
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405140734711.png"/>
+
+> 带宽
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405143517198.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405155430669.png"/>
+
+> 吞吐量
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405151043753.png"/>
+
+> 时延
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405151532470.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405151717601.png"/>
+
+> 时延带宽积
+
+时延带宽积是传播时延和带宽的乘积。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405152327855.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405152539347.png"/>
+
+> 往返时间 RTT
+
+往返时间(Round-Trip Time,RTT)是指从发送端发送数据分组开始,到发送端收到接收端发来的相应确认分组为止,总共耗费的时间。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405153229745.png"/>
+
+> 利用率
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405153804352.png"/>
+
+> 丢包率
+
+丢包率是指在一定的时间范围内,传输过程中丢失的分组数量与总分组数量的比率。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405154308833.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405154417409.png"/>
+
+# 2 计算机网络体系结构
+
+## 2.1 计算机网络分层结构
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405160639992.png"/>
