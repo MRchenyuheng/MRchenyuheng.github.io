@@ -19,6 +19,7 @@ lang: ''
 根据这个定义:(1)计算机网络所连接的硬件,并不限于一般的计算机,而是包括了智能手机或智能电视机;(2)计算机网络并非专门用来传送数据,而是能够支持很多种应用(包括今后可能出现的各种应用)。当然,没有数据的传送,这些应用是无法实现的。
 请注意,上述的“可编程的硬件”表明这种硬件一定包含有中央处理器CPU。
 
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405183719833.png"/>
 
 ### 1.1.2 计算机网络的组成
 
@@ -40,6 +41,8 @@ lang: ''
 
 
 ## 1.1.3 计算机网络的功能
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405183317942.png"/>
 
 ## 1.2 计算机网络的分类
 
@@ -128,6 +131,16 @@ lang: ''
 
 ## 2.2 计算机网络协议、接口、服务等概念
 
+当研究开放系统中的信息交换时,往往使用实体(entity)这一较为抽象的名词表示任何可发送或接收信息的硬件或软件进程。
+
+协议是控制两个对等实体(或多个实体)进行通信的规则的集合。协议的语法方面的规则定义了所交换的信息的格式,而协议的语义方面的规则就定义了发送者或接收者所要完成的操作,例如,在何种条件下,数据必须重传或丢弃。
+
+在协议的控制下,两个对等实体间的通信使得本层能够向上一层提供服务。要实现本层协议,还需要使用下面一层所提供的服务。
+一定要弄清楚,协议和服务在概念上是很不一样的。
+首先,协议的实现保证了能够向上一层提供服务。使用本层服务的实体只能看见服务而无法看见下面的协议。也就是说,下面的协议对上面的实体是透明的。
+其次,协议是“水平的”,即协议是控制对等实体之间通信的规则。但服务是“垂直的”,即服务是由下层向上层通过层间接口提供的。另外,并非在一个层内完成的全部功能都称为服务。只有那些能够被高一层实体“看得见”的功能才能称之为“服务”。上层使用下层所提供的服务必须通过与下层交换一些命令,这些命令在OSI中称为服务原语。
+
+
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405170223471.png"/>
 
 在同一系统中相邻两层的实体进行交互(即交换信息)的地方,通常称为服务访问点SAP(Service Access Point)。
@@ -148,4 +161,14 @@ OSI把层与层之间交换的数据的单位称为服务数据单元SDU(Service
 
 ## 2.3 ISO/OSI参考模型和TCP/IP参考模型
 
+> ISO/OSI
+
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405175550393.png" alt="出自TCPIP 详解"/>
+
+> TCP/IP
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405182854437.png"/>
+
+> 对比
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405182926043.png"/>
