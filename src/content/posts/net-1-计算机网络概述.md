@@ -116,7 +116,7 @@ lang: ''
 
 丢包率是指在一定的时间范围内,传输过程中丢失的分组数量与总分组数量的比率。
 
-<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405154308833.png"/>
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405154308833.png" height="40%" width="40%"/>
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405154417409.png"/>
 
@@ -125,3 +125,25 @@ lang: ''
 ## 2.1 计算机网络分层结构
 
 <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405160639992.png"/>
+
+## 2.2 计算机网络协议、接口、服务等概念
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405170223471.png"/>
+
+在同一系统中相邻两层的实体进行交互(即交换信息)的地方,通常称为服务访问点SAP(Service Access Point)。
+
+服务访问点SAP是一个抽象的概念,它实际上就是一个逻辑接口,有点像邮政信箱(可以把邮件放入信箱和从信箱中取走邮件),但这种层间接口和两个设备之间的硬件接口(并行的或串行的)并不一样。
+
+> SDU
+
+OSI把层与层之间交换的数据的单位称为服务数据单元SDU(Service Data Unit),它可以与PDU不一样。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405173206277.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405173434255.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250405172820169.png"/>
+
+
+
+## 2.3 ISO/OSI参考模型和TCP/IP参考模型
