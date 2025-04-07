@@ -117,6 +117,47 @@ lang: ''
 
 ## 2.2 物理层接口的特性
 
+1. 机械特性：接⼝所⽤接线器的⼀些物理属性如接⼝形状，接⼝尺
+⼨，引线数⽬及排列；
+2. 电⽓特性：接⼝电缆的各条线上出现的电压的范围，阻抗匹配，
+传输速率，距离等；
+3. 功能特性：某条线上出现的某⼀电平的电压的意义，接⼝部件信
+号线的⽤途；
+4. 过程特性：对于不同功能的各种可能事件的出现顺序，定义各条
+物理线路的⼯作规程和时序关系。
+
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(247, 82, 6);"> 机械特性举例 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407120828573.png"/>
+  </div>
+</details>
+
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(247, 82, 6);"> 电气特性举例 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+   <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407121152590.png"/>
+  </div>
+</details>
+
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(247, 82, 6);"> 功能特性举例 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+  <img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407121214574.png"/>
+  </div>
+</details>
+
+<details style="color: darkred;">
+  <summary style="cursor: pointer; color:rgb(247, 82, 6);"> 过程特性举例 </summary>
+  <div style="padding: 10px; border: 1px solid #ccc; margin-top: 5px;">
+  </div>
+</details>
+
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407120553380.png"/>
+
+
+
 # 3 物理层设备
 
 ## 3.1 中继器
