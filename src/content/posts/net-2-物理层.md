@@ -1,8 +1,8 @@
 ---
 title: 物理层
-published: 2025-03-26
-updated: 2025-03-26
-description: ''
+published: 2025-04-06
+updated: 2025-04-07
+description: '计算机网络物理层'
 image: ''
 tags: [408统考]
 category: '计算机网络'
