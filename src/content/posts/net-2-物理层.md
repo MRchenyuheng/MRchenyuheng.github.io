@@ -143,6 +143,67 @@ lang: ''
 
 同轴电缆由内导体铜质芯线(单股实心线或多股绞合线)、绝缘层、网状编织的外导体屏蔽层(也可以是单股的)以及绝缘保护套层所组成。由于外导体屏蔽层的作用,同轴电缆具有很好的抗干扰特性,被广泛用于传输较高速率的数据。
 
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407134332353.png"/>
+
+> 光纤
+
+光纤通信利用光脉冲在光纤中的传递来进行通信。由于可见光的频率非常高(约为108MHz量级), 因此一个光纤通信系统的传输带宽远大于目前其他各种传输媒体的带宽。
+
+因此,可以存在多条不同角度入射的光线在一条光纤中传输。这种光纤就称为多模光纤。
+
+若光纤的直径减小到只有一个光的波长,则光纤就像一根波导那样,可使光线一直向前传播,而不会产生多次反射。这样的光纤称为单模光纤。
+
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407134822293.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407134844810.png" width="80%" height="80%"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407134805866.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407135235125.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407135313964.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407135620238.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407135915368.png"/>
+
+> 无线电波
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407135508919.png"/>
+
+> 微波
+
+为实现远距离通信必须在一条微波通信信道的两个终端之间建立若干个中继站。
+
+中继站把前一站送来的信号经过放大后再发送到下一站,这种通信方式称为“微波接力”。大多数长途电话业务使用4GHz~6 GHz的频率范围。
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407141422414.png"/>
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407141504066.png"/>
+
+优点
+
+1. 微波波段频率很高,其频段范围也很宽,因此其通信信道的容量很大。
+2. 因为工业干扰和天电干扰的主要频谱成分比微波频率低得多,对微波通信的危害比对短波和米波(即甚高频)通信小得多,因而微波传输质量较高。
+3. 与相同容量和长度的电缆载波通信比较,微波接力通信建设投资少,见效快,易于跨越山区、江河。
+
+缺点
+
+1. 相邻站之间必须直视(常称为视距LOS(Line Of Sight)),不能有障碍物。有时一个天线发射出的信号也会分成几条略有差别的路径到达接收天线,因而造成失真。
+2. 微波的传播有时也会受到恶劣气候的影响。
+3. 与电缆通信系统比较,微波通信的隐蔽性和保密性较差。
+4. 对大量中继站的使用和维护要耗费较多的人力和物力。
+
+> 红外线
+
+<img src="https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250407141737317.png"/>
+> 激光
+
+> 可见光
+
+
+
 ## 2.2 物理层接口的特性
 
 1. 机械特性：接⼝所⽤接线器的⼀些物理属性如接⼝形状，接⼝尺
