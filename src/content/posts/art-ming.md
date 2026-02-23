@@ -3,12 +3,14 @@ title: 明史学习笔记
 published: 2026-02-23
 updated: 2026-02-23
 description: ''
-image: ''
+image: 'https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/Ming/20260223200243915.jpg'
 tags: [文集]
 category: '文集'
 draft: false 
 lang: ''
 ---
+
+![](https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/Ming/20260223200243915.jpg)
 
 中国自三代以后,得国最正者,惟汉与明。匹夫起事,无凭借威柄之嫌;为民除暴,无预窥神器之意。
 
