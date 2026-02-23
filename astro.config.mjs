@@ -62,28 +62,37 @@ export default defineConfig({
   ],
   markdown: {
     // --------------- 新增：代码高亮配置 ---------------
+    // --------------- 修正：代码高亮配置 ---------------
     syntaxHighlight: 'shiki', // 启用 shiki 代码高亮
     shikiConfig: {
-      // 双主题适配 Fuwari 明暗模式
+      // 双主题适配（绑定html的dark类，和主题切换联动）
       themes: {
-        light: 'github-light', // 亮色主题
-        dark: 'github-dark', // 暗色主题
+        light: 'vitesse-light', // 更清晰的浅色主题（替代github-light）
+        dark: 'vitesse-dark', // 更清晰的深色主题（替代github-dark）
       },
       lineNumbers: true, // 显示代码行号
-      wrap: true, // 代码自动换行
-      // 支持的代码语言（包含你常用的 C 语言）
+      wrap: false, // 关闭自动换行（避免样式错乱，改用横向滚动更符合代码阅读习惯）
+      experimentalThemes: true, // 启用实验性主题特性，确保明暗切换生效
+      // 支持的代码语言（补充常用语言，确保语法解析准确）
       langs: [
         'c',
+        'cpp', // 补充cpp，避免C语言高亮识别问题
         'javascript',
         'typescript',
         'html',
         'css',
+        'scss',
         'bash',
+        'shell', // 补充shell
         'python',
         'astro',
         'markdown',
+        'json',
+        'yaml',
+        'toml',
       ],
     },
+    // --------------------------------------------------
     // --------------------------------------------------
     remarkPlugins: [
       remarkMath,
