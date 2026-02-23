@@ -1,18 +1,19 @@
-/* 首先定义自定义工具类，放在 @layer 中让 Tailwind 识别 */
+/* src/styles/markdown.css */
+/* 第一步：引入 Tailwind 核心层（必须） */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 第二步：在 @layer 中定义自定义类 */
 @layer utilities {
-  /* 定义 link 类（你可以根据实际需求调整样式） */
   .link {
+    /* 自定义 link 类样式（可根据需求调整） */
     text-decoration: underline;
     transition: all 0.2s ease;
   }
-  
-  /* 可选：如果需要其他自定义工具类也可以在这里添加 */
-  .anchor-icon {
-    /* 锚点图标基础样式（如果需要） */
-    display: inline-block;
-  }
 }
 
+/* 原有样式逻辑 */
 .custom-md {
     h1 {
         @apply text-3xl;
@@ -35,7 +36,6 @@
     }
 
     a:not(.no-styling) {
-        /* 修复：link 类现在在 @layer 中定义，Tailwind 可以识别 */
         @apply relative bg-none link font-medium text-[var(--primary)]
         underline decoration-[var(--link-underline)] decoration-1 decoration-dashed underline-offset-4;
 
@@ -96,7 +96,6 @@
             @apply content-[''] absolute -left-1 block transition bg-[var(--btn-regular-bg)] h-full w-1 rounded-full;
         }
 
-        /* Remove the double quotes from default styles */
         p:before, p:after {
             @apply content-none;
         }
