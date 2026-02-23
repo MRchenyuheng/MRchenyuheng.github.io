@@ -156,38 +156,74 @@
     height: var(--collapsedHeight);
 }
 
-/* --------------- 新增：Shiki 代码块样式 --------------- */
-/* 适配 Fuwari 主题的代码块整体样式 */
-pre.shiki {
-    @apply rounded-[var(--radius-large)] !important; /* 复用主题圆角变量，保持风格统一 */
-    @apply bg-[oklch(0.18_0.01_var(--hue))] !important; /* 适配主题色调的深灰背景，比页面背景稍亮 */
-    @apply border border-[oklch(0.25_0.01_var(--hue))] !important; /* 细微边框，增强区分度 */
-    @apply p-6 my-4 !important; /* 内边距+上下外边距，和主题卡片间距统一 */
-    @apply overflow-x-auto; /* 长代码横向滚动 */
-    @apply transition-all; /* 跟随主题过渡动画 */
+/* --------------- 最终版：Shiki 代码块样式 --------------- */
+/* 匹配Shiki实际生成的DOM结构（pre > code > [data-line]） */
+pre[class*="shiki"] {
+    border-radius: var(--radius-large) !important;
+    background: var(--code-bg) !important;
+    border: 1px solid var(--code-border) !important;
+    padding: 1.5rem !important;
+    margin: 1rem 0 !important;
+    overflow-x: auto !important;
+    transition: all 0.3s ease !important;
+    position: relative !important; /* 为复制按钮定位做准备 */
 }
 
-/* 代码块行号样式（适配 Fuwari 文字透明度） */
-/* 修改后正确代码 */
-pre.shiki .line-numbers {
-    /* 把原来的背景色替换成下面这行，直接用固定色更直观 */
-    background-color: #e6e8ed !important; /* 关键：调亮的深灰背景，替代纯黑 */
-    @apply border border-[#383c44] !important; /* 边框也稍亮，和背景匹配 */
-    @apply text-30 !important;
-    @apply mr-4 !important;
-    @apply select-none !important; /* 正确：Tailwind 3.x 原子类是 select-none */
+/* 全局定义代码块的CSS变量（和主题联动） */
+html:not(.dark) {
+    --code-bg: #f8f9fa !important;
+    --code-border: #e9ecef !important;
+    --code-text: #212529 !important;
+    --line-number-bg: #f1f3f5 !important;
+    --line-number-text: #adb5bd !important;
 }
 
-/* 代码文本基础样式（确保字体和主题协调） */
-pre.shiki code {
-    @apply font-mono text-sm !important; /* 等宽字体+适配主题的字号 */
-    @apply text-90 !important; /* 复用主题的 90% 透明度文字，保证可读性 */
+html.dark {
+    --code-bg: #121212 !important;
+    --code-border: #2d2d2d !important;
+    --code-text: #e9ecef !important;
+    --line-number-bg: #1a1a1a !important;
+    --line-number-text: #6c757d !important;
 }
 
-/* 代码块复制按钮样式（适配 Fuwari 主题） */
-pre.shiki .copy-btn {
-    @apply absolute top-3 right-3 !important; /* 复制按钮位置调整 */
-    @apply btn-plain scale-animation !important; /* 复用主题的按钮样式 */
-    @apply w-8 h-8 !important; /* 按钮尺寸适配 */
+/* 代码行号样式（匹配Shiki生成的行号DOM） */
+pre[class*="shiki"] .line-numbers {
+    background: var(--line-number-bg) !important;
+    border-right: 1px solid var(--code-border) !important;
+    color: var(--line-number-text) !important;
+    padding: 0 0.75rem !important;
+    margin-right: 0.75rem !important;
+    user-select: none !important;
+}
+
+/* 代码文本样式 */
+pre[class*="shiki"] code {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+    font-size: 0.875rem !important;
+    line-height: 1.6 !important;
+    color: var(--code-text) !important;
+}
+
+/* 修复单行代码和代码块的样式冲突 */
+:not(pre) > code {
+    padding: 0.125rem 0.25rem !important;
+    border-radius: 0.25rem !important;
+    background: var(--code-bg) !important;
+    color: var(--code-text) !important;
+}
+
+/* 复制按钮样式（确保层级和交互） */
+pre[class*="shiki"] .copy-btn {
+    position: absolute !important;
+    top: 0.75rem !important;
+    right: 0.75rem !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    opacity: 0.7 !important;
+    z-index: 10 !important;
+}
+
+pre[class*="shiki"] .copy-btn:hover {
+    opacity: 1 !important;
 }
 /* ------------------------------------------------------ */
