@@ -170,6 +170,9 @@ pre.shiki {
 /* 代码块行号样式（适配 Fuwari 文字透明度） */
 /* 修改后正确代码 */
 pre.shiki .line-numbers {
+    /* 把原来的背景色替换成下面这行，直接用固定色更直观 */
+    background-color: #9da0a6 !important; /* 关键：调亮的深灰背景，替代纯黑 */
+    @apply border border-[#383c44] !important; /* 边框也稍亮，和背景匹配 */
     @apply text-30 !important;
     @apply mr-4 !important;
     @apply select-none !important; /* 正确：Tailwind 3.x 原子类是 select-none */
