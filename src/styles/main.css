@@ -168,10 +168,11 @@ pre.shiki {
 }
 
 /* 代码块行号样式（适配 Fuwari 文字透明度） */
+/* 修改后正确代码 */
 pre.shiki .line-numbers {
-    @apply text-30 !important; /* 复用主题的 30% 透明度文字样式，和主题统一 */
-    @apply mr-4 !important; /* 行号和代码之间的间距 */
-    @apply user-select-none; /* 禁止选中行号 */
+    @apply text-30 !important;
+    @apply mr-4 !important;
+    @apply select-none !important; /* 正确：Tailwind 3.x 原子类是 select-none */
 }
 
 /* 代码文本基础样式（确保字体和主题协调） */
