@@ -67,8 +67,8 @@ export default defineConfig({
     shikiConfig: {
       // 双主题适配（绑定html的dark类，和主题切换联动）
       themes: {
-        light: 'vitesse-light', // 更清晰的浅色主题（替代github-light）
-        dark: 'vitesse-dark', // 更清晰的深色主题（替代github-dark）
+        light: 'one-dark-pro', // 更清晰的浅色主题（替代github-light）
+        dark: 'one-dark-pro', // 更清晰的深色主题（替代github-dark）
       },
       lineNumbers: true, // 显示代码行号
       wrap: false, // 关闭自动换行（避免样式错乱，改用横向滚动更符合代码阅读习惯）
