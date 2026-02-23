@@ -155,3 +155,35 @@
 .collapsed {
     height: var(--collapsedHeight);
 }
+
+/* --------------- 新增：Shiki 代码块样式 --------------- */
+/* 适配 Fuwari 主题的代码块整体样式 */
+pre.shiki {
+    @apply rounded-[var(--radius-large)] !important; /* 复用主题圆角变量，保持风格统一 */
+    @apply bg-[oklch(0.18_0.01_var(--hue))] !important; /* 适配主题色调的深灰背景，比页面背景稍亮 */
+    @apply border border-[oklch(0.25_0.01_var(--hue))] !important; /* 细微边框，增强区分度 */
+    @apply p-6 my-4 !important; /* 内边距+上下外边距，和主题卡片间距统一 */
+    @apply overflow-x-auto; /* 长代码横向滚动 */
+    @apply transition-all; /* 跟随主题过渡动画 */
+}
+
+/* 代码块行号样式（适配 Fuwari 文字透明度） */
+pre.shiki .line-numbers {
+    @apply text-30 !important; /* 复用主题的 30% 透明度文字样式，和主题统一 */
+    @apply mr-4 !important; /* 行号和代码之间的间距 */
+    @apply user-select-none; /* 禁止选中行号 */
+}
+
+/* 代码文本基础样式（确保字体和主题协调） */
+pre.shiki code {
+    @apply font-mono text-sm !important; /* 等宽字体+适配主题的字号 */
+    @apply text-90 !important; /* 复用主题的 90% 透明度文字，保证可读性 */
+}
+
+/* 代码块复制按钮样式（适配 Fuwari 主题） */
+pre.shiki .copy-btn {
+    @apply absolute top-3 right-3 !important; /* 复制按钮位置调整 */
+    @apply btn-plain scale-animation !important; /* 复用主题的按钮样式 */
+    @apply w-8 h-8 !important; /* 按钮尺寸适配 */
+}
+/* ------------------------------------------------------ */
