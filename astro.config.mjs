@@ -90,6 +90,8 @@ export default defineConfig({
         'json',
         'yaml',
         'toml',
+        'latex', // 新增：添加 LaTeX 语言支持
+        'tex', // 补充：添加 tex 别名（兼容不同的代码块标识）
       ],
     },
     // --------------------------------------------------
