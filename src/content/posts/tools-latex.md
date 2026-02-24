@@ -2,7 +2,7 @@
 title: latex 工具 学习笔记
 published: 2026-02-24
 updated: 2026-02-24
-description: ''
+description: '介绍latex工具的学习笔记'
 image: ''
 tags: [工具]
 category: ''

@@ -2,7 +2,7 @@
 title: 明史学习笔记
 published: 2026-02-23
 updated: 2026-02-23
-description: ''
+description: '明史学习相关笔记'
 image: 'https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/Ming/20260223200243915.jpg'
 tags: [文集]
 category: '文集'

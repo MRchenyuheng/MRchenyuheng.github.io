@@ -2,7 +2,7 @@
 title: 操作系统基础
 published: 2025-03-17
 updated: 2025-03-18
-description: ''
+description: '操作系统基础'
 image: ''
 tags: [408统考]
 category: '操作系统'

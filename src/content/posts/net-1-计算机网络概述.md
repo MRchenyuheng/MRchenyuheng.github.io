@@ -2,7 +2,7 @@
 title: 计算机网络概述
 published: 2025-03-26
 updated: 2025-03-26
-description: ''
+description: '计算机网络概述相关知识'
 image: ''
 tags: [408统考]
 category: '计算机网络'

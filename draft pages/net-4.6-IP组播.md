@@ -2,7 +2,7 @@
 title: IP组播
 published: 2025-03-26
 updated: 2025-03-26
-description: ''
+description: 'IP组播相关知识'
 image: ''
 tags: [408统考]
 category: '计算机网络'

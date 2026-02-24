@@ -2,7 +2,7 @@
 title: 湖科大计网24每日一题
 published: 2025-03-20
 updated: 2025-03-21
-description: ''
+description: '湖科大计算机网络相关题目'
 image: ''
 tags: [408统考]
 category: '计算机网络'
