@@ -360,3 +360,27 @@ overlay last={
     ">本链接链接至latex 工具 参考资料</p>
   </a>
 </div>
+
+## 将笔记导出为pdf添加至博客系统
+
+```html
+<!-- 内嵌 PDF 预览框，设置宽高和样式 -->
+<div style="width: 100%; height: 800px; border: 1px solid #eaeaea; border-radius: 8px; overflow: hidden;">
+  <embed
+    src="/pdfs/a.pdf"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+  />
+</div>
+```
+
+<!-- 内嵌 PDF 预览框，设置宽高和样式 -->
+<div style="width: 100%; height: 800px; border: 1px solid #eaeaea; border-radius: 8px; overflow: hidden;">
+  <embed
+    src="/pdfs/b.pdf"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+  />
+</div>
