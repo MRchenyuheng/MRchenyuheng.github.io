@@ -43,7 +43,7 @@ export const navBarConfig: NavBarConfig = {
     // 新增自定义菜单项：408统考
     {
       name: '408统考',
-      url: '/categories/408统考/', // 对应你的分类页面路径
+      url: '/archive/tag/408统考/', // 对应你的分类页面路径
       external: false, // 内部链接，不显示外链图标
     },
     // 新增自定义菜单项：music
