@@ -2,8 +2,8 @@
 title: 音乐
 published: 2025-03-18
 updated: 2026-02-24
-description: '关山酒歌词'
-image: 'https://raw.githubusercontent.com/MRchenyuheng/Blog_Pic_Bed/main/NET/20250320123710716.png'
+description: 'music 推荐'
+image: ''
 tags: [文集]
 category: '文集'
 draft: false 
