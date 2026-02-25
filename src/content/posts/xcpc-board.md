@@ -1,5 +1,5 @@
 ---
-title: xcpc板子
+title: xcpc 板子 整理
 published: 2026-02-25
 updated: 2026-02-25
 description: 'xcpc板子'
@@ -9,6 +9,9 @@ category: 'xcpc'
 draft: false 
 lang: ''
 ---
+
++ 谨记我逝去的本科岁月
+
 # 数据结构
 
 ## DSU
