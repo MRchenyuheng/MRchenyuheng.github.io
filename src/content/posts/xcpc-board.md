@@ -2,7 +2,7 @@
 title: xcpc 板子 整理
 published: 2026-02-25
 updated: 2026-02-25
-description: 'xcpc板子'
+description: 'xcpc 板子 整理'
 image: ''
 tags: [xcpc]
 category: 'xcpc'
