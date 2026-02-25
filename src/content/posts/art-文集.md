@@ -1,5 +1,5 @@
 ---
-title: 文集
+title: 音乐
 published: 2025-03-18
 updated: 2026-02-24
 description: '关山酒歌词'
@@ -9,6 +9,8 @@ category: '文集'
 draft: false 
 lang: ''
 ---
+
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1zFcez5E8R&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 关山酒歌词
 
